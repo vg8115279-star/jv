@@ -92,6 +92,13 @@ header .logo {
   font-weight: bold;
   float: left;
   margin-left: 10px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+header .logo:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(222, 63, 63, 0.5);
 }
 header .container {
   display: flex;
@@ -109,6 +116,7 @@ header .container {
   text-align: center;
   height: 100vh;
   width: 100%;
+  scroll-margin-top: 100px;
 }
 
 #hero .hero-content {
@@ -152,6 +160,7 @@ header .container {
 #about {
   background-color: #000000;
   color: #ffffff;
+  scroll-margin-top: 100px;
 }
 #about .container {
   text-align: center;
@@ -209,9 +218,19 @@ header .container {
   background-color: #000000;
   color: #fff;
   text-align: center;
+  scroll-margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 #PROJECTS .container {
   padding: 100px 0px;
+}
+#PROJECTS h2 {
+  color: #de3f3f;
+  margin-bottom: 40px;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 #PROJECTS .h2 {
   color: #de3f3f;
@@ -318,7 +337,8 @@ header .container {
 #contact {
   background-color: #000000;
   color: #fff;
-  padding: 80px 20px;
+  padding: 150px 20px 100px 20px;
+  scroll-margin-top: 100px;
 }
 
 #contact h2 {
@@ -327,6 +347,8 @@ header .container {
   font-weight: bold;
   margin-bottom: 10px;
   letter-spacing: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #contact h2::after {
